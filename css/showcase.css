@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script|Great+Vibes");
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -30,8 +30,8 @@ html {
 }
 
 .hero .title {
-  font-family: 'Kaushan Script', sans-serif;
-  transform: rotate(-5deg);
+  font-family: 'Great Vibes', sans-serif;
+  transform: rotate(-3deg);
   font-size: 5rem;
   color: whitesmoke;
 }
