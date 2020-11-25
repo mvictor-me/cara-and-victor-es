@@ -9,6 +9,7 @@
   <!-- Bulma Version 0.9.0-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
   <link rel="stylesheet" type="text/css" href="css/showcase.css" />
+  <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
   <script src="https://kit.fontawesome.com/2828f7885a.js" integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" href="favicon.png" />
 </head>
@@ -105,7 +106,7 @@
                   <a href="#when-where">When &amp; Where</a>
                 </li>
                 <li>
-                  <a href="#skills">Travel</a>
+                  <a href="#travel">Travel</a>
                 </li>
                 <li>
                   <a href="#my-work">Gallery</a>
@@ -225,76 +226,72 @@
       </div>
     </div>
     <!-- End When & Where Content -->
-    <!-- Begin Services Content -->
-    <div class="section-color services" id="services">
+    <!-- Begin Travel Content -->
+    <div class="section-color travel" id="travel">
       <div class="container">
         <div class="columns is-multiline">
           <div class="column is-12 about-us" data-aos="fade-in" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">Services</h1>
-
+            <h1 class="title has-text-centered section-title">Travel</h1>
             <h2 class="subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              ...
             </h2>
-            <br />
           </div>
-          <div class="columns is-12">
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fad fa-meteor fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
-            </div>
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-paint-brush fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
-            </div>
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-rocket fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
-            </div>
-          </div>
-          <hr />
-          <div class="columns is-12">
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-upload fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
-            </div>
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-bus fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
-            </div>
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-code fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
+          <div class="column is-12">
+            <div class="columns features">
+              <div class="column is-4 modal-button" data-target="modal-card">
+                <div class="card is-shady">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">
+                      <h4>Click anywhere on card to <br>expand into modal card</h4>
+                      <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
+                      <span class="button is-link modal-button">Modal card</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-4 modal-button" data-target="modal-card">
+                <div class="card is-shady">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">
+                      <h4>Click anywhere on card to <br>expand into modal card</h4>
+                      <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
+                      <span class="button is-link modal-button">Modal card</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-4 modal-button" data-target="modal-card">
+                <div class="card is-shady">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder image">
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="content">
+                      <h4>Click anywhere on card to <br>expand into modal card</h4>
+                      <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
+                      <span class="button is-link modal-button">Modal card</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Services Content -->
+    <!-- End Travel Content -->
     <!-- Begin Skills Content -->
     <div class="section-light skills" id="skills">
       <div class="container">
@@ -439,9 +436,53 @@
     </p>
   </div>
   <!-- End Footer -->
+  <!--  ===============
+  HERE BE MODALS
+  ===============  -->
+  <div id="modal-card" class="modal modal-fx-fadeInScale">
+    <div class="modal-background"></div>
+    <div class="modal-content is-tiny">
+      <!-- content -->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="https://bulma.io/images/placeholders/640x480.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-48x48">
+                <img src="https://bulma.io/images/placeholders/128x128.png" alt="linda barret avatar">
+              </figure>
+            </div>
+            <div class="media-content">
+              <p class="title is-4">Jane Doe</p>
+              <p class="subtitle is-6">@jane_doe</p>
+            </div>
+          </div>
+          <div class="content">
+            Laum Ipsum junkah potatoes bookin' it. Moosetown rig up I'm tellin' you way up north bookin' it can't get theyah from heeyah native bean suppah whawf Powrtland Museum of Aht, back woods hawsun around the pit mummah Yessah, mummah muckle
+            riyht on'ta her
+            Bean's dinnahbucket bub geez bud sumpin' fierce ayuhpawt Bangah naw, Powrtland Museum of Aht down cellah sumpin' fierce hoppa bub If you can't stand the wintah you don't deserve the summah slower than molasses going uphill in January.
+            Sgn'wahl shoggor hrii uaaah R'lyeh uh'e k'yarnak Hastur hupadgh li'hee, hai f'nilgh'ri nilgh'ri n'ghftor ngftaghu vulgtlagln h'hrii throd Nyarlathotep lloig, naflsll'ha nnnsll'ha athg y-ebunma goka chtenff ehyeog cehye. Zhro y'hah
+            nogoth phlegeth stell'bsna orr'e ph'Hastur gnaiih throd, uln ya lw'nafh mg nar'luh li'hee wgah'n, sgn'wahl mg nakadishtu chlirgh hupadgh tharanak h'gnaiih.
+            <a>@bulmaio</a>.
+            <a href="#">#css</a>
+            <a href="#">#responsive</a>
+            <br>
+            <time datetime="2018-02-02">12:45 AM - 20 June 2018</time>
+          </div>
+        </div>
+      </div>
+      <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
   <script src="js/showcase.js"></script>
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
