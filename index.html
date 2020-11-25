@@ -64,12 +64,12 @@
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#skills">
+              <a class="navbar-item" href="#travel">
                 Travel
               </a>
             </div>
             <div class="navbar-item">
-              <a class="navbar-item" href="#my-work">
+              <a class="navbar-item" href="#gallery">
                 Gallery
               </a>
             </div>
@@ -109,7 +109,7 @@
                   <a href="#travel">Travel</a>
                 </li>
                 <li>
-                  <a href="#my-work">Gallery</a>
+                  <a href="#gallery">Gallery</a>
                 </li>
                 <li>
                   <a href="#contact">RSVP</a>
@@ -292,48 +292,17 @@
       </div>
     </div>
     <!-- End Travel Content -->
-    <!-- Begin Skills Content -->
-    <div class="section-light skills" id="skills">
-      <div class="container">
-        <div class="columns is-multiline">
-          <div class="column is-12 about-us">
-            <h1 class="title has-text-centered section-title">Skills</h1>
-          </div>
-          <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
-            <h1>Adobe Experience Design</h1>
-            <progress class="progress" value="70" max="100">30%</progress>
-            <h1>Adobe After Effects</h1>
-            <progress class="progress" value="65" max="100">30%</progress>
-            <h1>Visual Studio Code</h1>
-            <progress class="progress" value="58" max="100">45%</progress>
-            <h1>Sketch</h1>
-            <progress class="progress" value="90" max="100">60%</progress>
-          </div>
-          <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
-            <h1>HTML</h1>
-            <progress class="progress" value="85" max="100">30%</progress>
-            <h1>CSS</h1>
-            <progress class="progress" value="95" max="100">30%</progress>
-            <h1>VueJS</h1>
-            <progress class="progress" value="70" max="100">45%</progress>
-            <h1>React</h1>
-            <progress class="progress" value="60" max="100">60%</progress>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Skills Content -->
-    <!-- Begin Work Content -->
-    <div class="section-dark my-work" id="my-work">
+    <!-- Begin Gallery Content -->
+    <div class="section-dark gallery" id="gallery">
       <div class="container">
         <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
           <div class="column is-12">
-            <h1 class="title has-text-centered section-title">My Work</h1>
+            <h1 class="title has-text-centered section-title">Gallery</h1>
           </div>
           <div class="column is-3">
-            <a href="#">
-              <figure class="image is-2by1 work-item" style="background-image: url('https://picsum.photos/320/180?image=0');"></figure>
-            </a>
+            <figure class="image is-2by1 work-item">
+              <img src="https://bulma.io/images/placeholders/640x320.png" alt="butterfly image" class="modal-button" data-target="modal-image1">
+            </figure>
           </div>
           <div class="column is-3">
             <a href="#">
@@ -373,7 +342,7 @@
         </div>
       </div>
     </div>
-    <!-- End Work Content -->
+    <!-- End Gallery Content -->
     <!-- Begin Contact Content -->
     <div class="section-light contact" id="contact">
       <div class="container">
@@ -439,6 +408,7 @@
   <!--  ===============
   HERE BE MODALS
   ===============  -->
+  <!-- card tiny -->
   <div id="modal-card" class="modal modal-fx-fadeInScale">
     <div class="modal-background"></div>
     <div class="modal-content is-tiny">
@@ -475,6 +445,17 @@
           </div>
         </div>
       </div>
+      <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+  <!-- end tiny modal card -->
+  <!-- Image modal -->
+  <div id="modal-image1" class="modal modal-fx-3dSlit">
+    <div class="modal-background"></div>
+    <div class="modal-content is-huge is-image">
+      <!-- content -->
+      <img src="https://bulma.io/images/placeholders/640x320.png" alt="butterfly">
       <!-- end content -->
     </div>
     <button class="modal-close is-large" aria-label="close"></button>
