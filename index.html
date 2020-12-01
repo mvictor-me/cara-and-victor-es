@@ -349,15 +349,15 @@
         <div class="columns is-multiline" data-aos="fade-in-up" data-aos-easing="linear">
           <div class="column is-12 about-us">
             <h1 class="title has-text-centered section-title">
-              Get in touch
+              Join our party
             </h1>
           </div>
           <div class="column is-8 is-offset-2">
-            <form action="https://formspree.io/email@example.com" method="POST">
+            <form name="rsvp-form" id="mG61Hd">
               <div class="field">
-                <label class="label">Name</label>
+                <label class="label">Full name</label>
                 <div class="control has-icons-left">
-                  <input class="input" type="text" placeholder="Ex. Jane Smith" name="Name" />
+                  <input id="rsvp-name" name="entry.661313634" class="input" type="text" placeholder="Ex. Jose Alfredo Jimenez" name="Name" />
                   <span class="icon is-small is-left">
                     <i class="fas fa-user"></i>
                   </span>
@@ -366,23 +366,37 @@
               <div class="field">
                 <label class="label">Email</label>
                 <div class="control has-icons-left">
-                  <input class="input" type="email" placeholder="Ex. hello@arctheme.com" name="Email" />
+                  <input id="rsvp-email" name="entry.316761288" class="input" type="email" placeholder="Ex. hello@gmail.com" name="Email" />
                   <span class="icon is-small is-left">
                     <i class="fas fa-envelope"></i>
                   </span>
                 </div>
               </div>
               <div class="field">
-                <label class="label">Message</label>
+                <label class="label">Meal</label>
                 <div class="control">
-                  <textarea class="textarea" placeholder="Textarea" name="Message"></textarea>
+                  <div class="select">
+                    <select id="rsvp-meal" name="entry.2006033988">
+                      <option value="meal" selected>Wedding meal as served</option>
+                      <option value="vegetarian">Vegetarian</option>
+                    </select>
+                  </div>
                 </div>
               </div>
               <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea name="entry.1263148736" class="textarea" placeholder="Ex. Congratulations!" name="Message"></textarea>
+                </div>
+              </div>
+              <p id="rsvp-message" class="help mb-2 has-text-centered is-size-6">
+                <br>
+              </p>
+              <div class="field">
                 <div class="control ">
-                  <button class="button submit-button">
+                  <button id="rsvp-submit" type="button" class="button submit-button">
                     Submit&nbsp;&nbsp;
-                    <i class="fas fa-paper-plane"></i>
+                    <i class="fas fa-envelope"></i>
                   </button>
                 </div>
               </div>
@@ -463,6 +477,7 @@
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/rsvp.js"></script>
   <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
   <script src="js/showcase.js"></script>
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
