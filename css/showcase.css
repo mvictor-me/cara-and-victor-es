@@ -212,13 +212,13 @@ html {
 
 .main-content .section-color.travel {
   padding: 100px;
-  background-color: #43485c;
-  color: white;
+  background-color: rgba(189, 209, 242, 0.3);
+  color: #43485c;
 }
 
 .main-content .section-color.travel .title,
 .main-content .section-color.travel .subtitle {
-  color: white;
+  color: #43485c;
 }
 
 .main-content .section-color.travel i {
