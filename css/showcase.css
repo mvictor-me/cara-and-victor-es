@@ -104,6 +104,18 @@ html {
   padding: 60px 0px;
 }
 
+.main-content .section-dark.when-where .card {
+  border-radius: 11px;
+  margin: 20px;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+@media (max-width: 599px) {
+  .main-content .section-dark.when-where .card {
+    margin: auto;
+  }
+}
+
 .main-content .section-dark.gallery {
   padding: 120px;
 }
@@ -197,6 +209,18 @@ html {
   padding: 20px;
 }
 
+.main-content .section-color.travel .card {
+  border-radius: 11px;
+  margin: 20px;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+@media (max-width: 599px) {
+  .main-content .section-color.travel .card {
+    margin: auto;
+  }
+}
+
 .main-content .section-title {
   color: #43485c;
   text-transform: uppercase;
@@ -207,21 +231,6 @@ html {
 
 .features {
   padding: 2rem 0;
-}
-
-.is-shady {
-  animation: flyintoright .4s backwards;
-  background: #fff;
-  box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
-  border-radius: 4px;
-  display: inline-block;
-  margin: 10px;
-  position: relative;
-  transition: all .2s ease-in-out;
-}
-
-.is-shady:hover {
-  box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
 }
 
 .footer {
