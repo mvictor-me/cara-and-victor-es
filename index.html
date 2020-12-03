@@ -151,14 +151,16 @@
             <br />
           </div>
           <div class="column is-6 right-image " data-aos="fade-left">
-            <figure class="image is-16by9">
-              <img src="images/about_us.jpg">
-            </figure>
+            <a href="#">
+              <figure class="image is-16by9 work-item">
+                <img src="images/about_us.jpg" alt="About us" class="modal-button" data-target="modal-about-us">
+              </figure>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- End About Ua Content -->
+    <!-- End About Us Content -->
     <!-- Begin When & Where Section -->
     <div class="section-dark" id="when-where">
       <div class="container">
@@ -238,7 +240,7 @@
               ...
             </h2>
           </div>
-          <div class="column is-12">
+          <div class="column is-12" data-aos="fade-in" data-aos-easing="linear">
             <div class="columns features">
               <div class="column is-4 modal-button" data-target="modal-card">
                 <div class="card is-shady">
@@ -440,6 +442,17 @@
   <!--  ===============
   HERE BE MODALS
   ===============  -->
+  <!-- about us modal -->
+  <div id="modal-about-us" class="modal modal-fx-fadeInScale">
+    <div class="modal-background"></div>
+    <div class="modal-content is-huge is-image">
+      <!-- content -->
+      <img src="images/about_us_large.jpg" alt="About us">
+      <!-- end content -->
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+  <!-- end of about us modal -->
   <!-- card tiny -->
   <div id="modal-card" class="modal modal-fx-fadeInScale">
     <div class="modal-background"></div>
