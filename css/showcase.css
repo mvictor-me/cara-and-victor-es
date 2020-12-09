@@ -20,6 +20,10 @@ html {
   padding-bottom: 30px;
 }
 
+.header-wrapper .navbar-burger {
+  color: #fff;
+}
+
 .hero {
   background-image: url("../images/background.jpg");
   background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("../images/background.jpg") no-repeat;
@@ -31,13 +35,14 @@ html {
 }
 
 .hero .title {
-  font-family: 'Great Vibes', sans-serif;
+  font-family: 'Great Vibes', 'Poppins', sans-serif;
   transform: rotate(-3deg);
   font-size: 5rem;
   color: whitesmoke;
 }
 
 .hero .subtitle {
+  font-family: 'Kaushan Script', 'Poppins', sans-serif;
   padding: 5px;
   color: whitesmoke;
 }
@@ -54,7 +59,7 @@ html {
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
 }
 
-@media (max-width: 599px) {
+@media (max-width: 762px) {
   .hero .hero-foot {
     display: none;
   }
@@ -68,7 +73,6 @@ html {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
   line-height: 38px;
   font-weight: 600;
-  text-transform: lowercase;
   letter-spacing: 1px;
   font-size: 1rem;
 }
@@ -223,10 +227,10 @@ html {
 
 .main-content .section-title {
   color: #43485c;
-  text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   letter-spacing: 2px;
   padding-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .features {
@@ -237,7 +241,7 @@ html {
   bottom: 0;
   width: 100vw;
   padding: 0;
-  height: 80px;
+  height: 100px;
   line-height: 25px;
   text-align: center;
   background: #1f2c6c;
