@@ -37,7 +37,7 @@ html {
 .hero .title {
   font-family: 'Great Vibes', 'Poppins', sans-serif;
   transform: rotate(-3deg);
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: normal;
   color: whitesmoke;
 }
@@ -50,7 +50,7 @@ html {
 
 .hero .profession {
   padding-top: 50px;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   font-weight: bold;
 }
 
@@ -207,7 +207,7 @@ html {
 }
 
 .main-content .section-color.travel {
-  padding: 100px;
+  padding: 60px 0px;
   color: #43485c;
 }
 
@@ -234,7 +234,7 @@ html {
 }
 
 .main-content .section-color.event-timeline {
-  padding: 100px;
+  padding: 60px 0px;
   color: #43485c;
   background-color: #ddeef94f;
 }
@@ -259,7 +259,6 @@ html {
 .footer {
   bottom: 0;
   width: 100vw;
-  padding: 0;
   height: 100px;
   line-height: 25px;
   text-align: center;
