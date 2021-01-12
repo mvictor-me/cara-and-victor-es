@@ -115,6 +115,14 @@ html {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
+.main-content .section-dark.when-where .fa-facebook {
+  color: #0070ffba;
+}
+
+.main-content .section-dark.when-where .fa-instagram {
+  color: #ff02029c;
+}
+
 @media (max-width: 599px) {
   .main-content .section-dark.when-where .card {
     margin: auto;
