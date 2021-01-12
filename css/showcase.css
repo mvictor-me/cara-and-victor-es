@@ -34,6 +34,16 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+/* Portrait */
+@media only screen and (orientation: portrait) {
+  .hero {
+    background-image: url("../images/background_mob.jpg");
+    background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("../images/background_mob.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
 .hero .title {
   font-family: 'Great Vibes', 'Poppins', sans-serif;
   transform: rotate(-3deg);
