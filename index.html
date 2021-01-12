@@ -9,6 +9,7 @@
   <!-- Bulma Version 0.9.0-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
   <link rel="stylesheet" type="text/css" href="css/showcase.css" />
+  <link rel="stylesheet" type="text/css" href="css/bulma-timeline.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
   <script src="https://kit.fontawesome.com/2828f7885a.js" integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" href="favicon.png" />
@@ -53,6 +54,11 @@
             <div class="navbar-item">
               <a class="navbar-item" href="#when-where">
                 When &amp; Where
+              </a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="#event-timeline">
+                Event Timeline
               </a>
             </div>
             <div class="navbar-item">
@@ -108,6 +114,9 @@
                 </li>
                 <li>
                   <a href="#when-where">When &amp; Where</a>
+                </li>
+                <li>
+                  <a href="#event-timeline">Event Timeline</a>
                 </li>
                 <li>
                   <a href="#travel">Travel</a>
@@ -200,7 +209,7 @@
                     </div>
                     <div class="column is-full">
                       <i class="far fa-calendar-alt"></i>
-                      <span>October 2 2021, 3:00 pm - 4:00 pm CST</span>
+                      <span>October 2 2021, 3:00pm - 4:00pm CST</span>
                     </div>
                   </div>
                 </div>
@@ -229,7 +238,7 @@
                     </div>
                     <div class="column is-full">
                       <i class="far fa-calendar-alt"></i>
-                      <span>October 2 2021, 5:00 pm - 12:00 am CST</span>
+                      <span>October 2 2021, 5:00pm - 1:00am CST</span>
                     </div>
                   </div>
                 </div>
@@ -240,11 +249,128 @@
       </div>
     </div>
     <!-- End When & Where Content -->
+    <!-- Begin Event Details Content -->
+    <div class="section-color event-timeline" id="event-timeline">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-12 event-timeline" data-aos="fade-in" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Event Timeline</h1>
+          </div>
+          <div class="column is-12 event-timeline" data-aos="fade-in" data-aos-easing="linear">
+            <div class="timeline is-centered">
+              <header class="timeline-header">
+                <span class="tag is-medium is-link">Friday Oct 1</span>
+              </header>
+              <div class="timeline-item is-info">
+                <div class="timeline-marker is-info is-icon">
+                  <i class="fa fa-plane"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">Morning - Afternoon</p>
+                  <p>Shuttle from Mexico City Airport to Hacienda Compostela</p>
+                </div>
+              </div>
+              <div class="timeline-item is-link">
+                <div class="timeline-marker is-link is-icon">
+                  <i class="fa fa-check-circle"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">3:30pm CST</p>
+                  <p>Check-In</p>
+                </div>
+              </div>
+              <div class="timeline-item is-info">
+                <div class="timeline-marker is-info is-icon">
+                  <i class="fa fa-bell"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">Evening</p>
+                  <p>Dinner</p>
+                </div>
+              </div>
+              <header class="timeline-header">
+                <span class="tag is-medium is-link">Saturday Oct 2</span>
+              </header>
+              <div class="timeline-item is-info">
+                <div class="timeline-marker is-info is-icon">
+                  <i class="fa fa-coffee"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">Morning</p>
+                  <p>Breakfast</p>
+                </div>
+              </div>
+              <div class="timeline-item is-link">
+                <div class="timeline-marker is-danger is-icon">
+                  <i class="fa fa-heart"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">3pm - 4pm CST</p>
+                  <p>Wedding Ceremony</p>
+                </div>
+              </div>
+              <div class="timeline-item is-info">
+                <div class="timeline-marker is-info is-icon">
+                  <i class="fa fa-glass"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">5pm - 6pm CST</p>
+                  <p>Cocktail Hour</p>
+                </div>
+              </div>
+              <div class="timeline-item is-link">
+                <div class="timeline-marker is-link is-icon">
+                  <i class="fa fa-music"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">6pm - 1am CST</p>
+                  <p>Reception</p>
+                </div>
+              </div>
+              <header class="timeline-header">
+                <span class="tag is-medium is-link">Sunday Oct 3</span>
+              </header>
+              <div class="timeline-item is-info">
+                <div class="timeline-marker is-info is-icon">
+                  <i class="fa fa-coffee"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">Morning</p>
+                  <p>Breakfast</p>
+                </div>
+              </div>
+              <div class="timeline-item is-link">
+                <div class="timeline-marker is-link is-icon">
+                  <i class="fa fa-check-circle"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">1pm CST</p>
+                  <p>Check-Out</p>
+                </div>
+              </div>
+              <div class="timeline-item is-info">
+                <div class="timeline-marker is-info is-icon">
+                  <i class="fa fa-plane"></i>
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">Afternoon</p>
+                  <p>Shuttle from Hacienda Compostela to Mexico City Airport</p>
+                </div>
+              </div>
+              <header class="timeline-header">
+                <span class="tag is-medium is-link is-light">Adios!</span>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Event Details Content -->
     <!-- Begin Travel Content -->
     <div class="section-color travel" id="travel">
       <div class="container">
         <div class="columns is-multiline">
-          <div class="column is-12 about-us" data-aos="fade-in" data-aos-easing="linear">
+          <div class="column is-12 travel" data-aos="fade-in" data-aos-easing="linear">
             <h1 class="title has-text-centered section-title">Travel</h1>
           </div>
           <div class="column is-12" data-aos="fade-in" data-aos-easing="linear">
@@ -391,13 +517,17 @@
     <div class="section-light contact" id="contact">
       <div class="container">
         <div class="columns is-multiline" data-aos="fade-in-up" data-aos-easing="linear">
-          <div class="column is-12 about-us">
+          <div class="column is-12 contact">
             <h1 class="title has-text-centered section-title">
               Join our party
             </h1>
-            <h2 class="subtitle has-text-centered">
-              RSVP will be coming soon!
-            </h2>
+          </div>
+          <div class="column is-one-third is-offset-one-third contact" data-aos="fade-in-up" data-aos-easing="linear">
+            <div class="notification is-info is-light">
+              <h2 class="subtitle has-text-centered">
+                <strong>RSVP</strong> will be coming soon!
+              </h2>
+            </div>
           </div>
           <!-- Not open yet
           <div class="column is-8 is-offset-2">
