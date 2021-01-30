@@ -178,6 +178,10 @@ html {
   font-size: 1.2rem;
 }
 
+.main-content .section-light.about-us .story {
+  font-size: 1.1rem;
+}
+
 @media (max-width: 599px) {
   .main-content .section-light.about-us .about-links {
     text-align: center;
