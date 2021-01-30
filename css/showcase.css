@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script|Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script|Great+Vibes|Alex+Brush");
 
 .has-vertically-aligned-content {
   display: flex;
@@ -26,7 +26,7 @@ html {
 
 .hero {
   background-image: url("../images/background.jpg");
-  background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("../images/background.jpg") no-repeat;
+  background: linear-gradient(rgba(75, 93, 176, 0.29), rgba(132, 69, 174, 0.31)), rgba(0, 0, 0, 0) url("../images/background.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -38,29 +38,29 @@ html {
 @media only screen and (orientation: portrait) {
   .hero {
     background-image: url("../images/background_mob.jpg");
-    background: linear-gradient(rgba(31, 44, 108, 0.65), rgba(31, 44, 108, 0.65)), rgba(0, 0, 0, 0.55) url("../images/background_mob.jpg") no-repeat;
+    background: linear-gradient(rgba(75, 93, 176, 0.29), rgba(132, 69, 174, 0.31)), rgba(0, 0, 0, 0) url("../images/background_mob.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
 }
 
 .hero .title {
-  font-family: 'Great Vibes', 'Poppins', sans-serif;
+  font-family: 'Alex Brush', 'Great Vibes', 'Poppins', sans-serif;
   transform: rotate(-3deg);
-  font-size: 6rem;
+  font-size: 8rem;
   font-weight: normal;
-  color: whitesmoke;
+  color: white;
 }
 
 .hero .subtitle {
-  font-family: 'Great Vibes', 'Kaushan Script', 'Poppins', sans-serif;
+  font-family: 'Alex Brush', 'Great Vibes', 'Kaushan Script', 'Poppins', sans-serif;
   padding: 5px;
-  color: whitesmoke;
+  color: white;
 }
 
 .hero .profession {
   padding-top: 50px;
-  font-size: 2.0rem;
+  font-size: 2.3rem;
   font-weight: bold;
 }
 
